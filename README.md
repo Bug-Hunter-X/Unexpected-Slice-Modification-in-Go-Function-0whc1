@@ -1,0 +1,3 @@
+# Unexpected Slice Modification in Go
+
+This repository demonstrates a common, yet subtle, error in Go involving unintended modification of slices passed to functions.  The `bug.go` file contains a function that modifies the input slice directly, without clearly indicating this behavior. This can lead to unexpected consequences in code that uses this function. The `bugSolution.go` file provides a corrected version, showing best practices for handling slices to avoid these pitfalls.
